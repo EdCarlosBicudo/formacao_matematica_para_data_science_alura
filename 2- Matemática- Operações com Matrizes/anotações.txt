@@ -1,0 +1,24 @@
+Matrizes.
+
+São compostas por 'm' linha e 'n' colunas. Ex:
+
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+
+matrix 3x3
+
+Cada elemento pode ser identificado pelo indice ij. Sendo 'i' a linha e 'j' a coluna.
+
+Matriz a cima:
+a11 = 0
+a23 = 6
+
+Matriz coluna: Uma coluna, mas pode ter várias linha.
+Matriz linha: Uma linha, mas pode ter várias colunas.
+Matriz quadrada: Mesmo número de linhas e colunas. Também conhecida como matriz de ordem.
+Matriz nula: Todos os elementos são iguais a zero.
+Diagonal Principal: {aij|i=j} = {a11, a22, a33, aii}
+Diagonal Secundária; {aij|i+j=n+1} = {a1n, a2,n-2, a3,n-2, an1}
+Matriz Diagonal: Somente a diagonal principal tem valores, os demais valores são 0
+Matriz Identidade (ou unidade): Todos os valores da Diagonal Principal são iguais a 1, od demais são iguais a 0.
