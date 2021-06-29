@@ -21,7 +21,7 @@ Matriz nula: Todos os elementos são iguais a zero.
 Diagonal Principal: {aij|i=j} = {a11, a22, a33, aii}
 Diagonal Secundária; {aij|i+j=n+1} = {a1n, a2,n-2, a3,n-2, an1}
 Matriz Diagonal: Somente a diagonal principal tem valores, os demais valores são 0
-Matriz Identidade (ou unidade): Todos os valores da Diagonal Principal são iguais a 1, od demais são iguais a 0.
+Matriz Identidade (ou unidade): Todos os valores da Diagonal Principal são iguais a 1, os demais são iguais a 0.
 Matris Oposta: A matriz oposta existe em relação a outra matriz X. A matriz oposta da matriz X é uma matriz que contém os mesmos valores, porém com o sinal trocado.
 
 Adição de Matrizes: Soma-se os elementos de cada matriz.
@@ -51,6 +51,70 @@ Subtração me matrizes: Subtrai-se os elementos de cada matriz, seguindo a mesm
 Também só é possível subtrair matrizes com o mesmo formato.
 Subtração também pode ser entendida como a soma da matriz A com a Matris Oposta de B.
 
-Multiplicação de Matrizes: Para multiplicar uma matriz por um número K, deve-se multilicar cada elemento da matriz pelo número K.
+Multiplicação de Matrizes por um número: Para multiplicar uma matriz por um número K, deve-se multilicar cada elemento da matriz pelo número K.
 
 Igualdade de Matrizes: Para uma matriz A(aij) = B(bij) eu tenho uma igualdade de metriz somente de aij = bij. Ou seja, se cada elemento da matriz A for igual ao seu correspondente na matriz B
+
+Multiplicação de Matrizes:
+C = A * B
+Da matriz A pega-se a dimensão i, da Matriz B pega-se a dimensão j:
+A2,4 * B4,2 = C2,2
+O produto da matriz A pela matriz B só é possível se o número de colunas de A for igual ao número de linhas de B!
+
+A=
+[[20 20 30 32]
+ [28 24 35 38]]
+
+B=
+[[ 0,20  0,20]
+ [ 4,00  3,40]
+ [ 0,40  0,60]
+ [12,96 11,20]]
+
+C=
+C1,1 = Soma da primeira linha de A, com a primeira coluna de B
+C1,1 = 25*0,20 + 20*4,00 + 30*0,40 + 32*12,96
+
+C1,2 = Soma da primeira linha de A, com a segunda coluna de B
+C1,2 = 25*0,20 + 20*4,00 + 30*0,40 + 32*11,20
+
+C2,1 = Soma da segunda linha de A, com a primeira coluna de B
+C2,1 = 28*0,20 + 24*4,00 + 35*0,40 + 38*12,96
+
+C2,2 = Soma da segunda linha de A, com a segunda coluna de B
+C2,2 = 28*0,20 + 24*3,40 + 35*0,60 + 38*11,20
+
+C=
+[[511,72 449,40]
+ [608,08 533,80]]
+
+Matriz Transposta: Transpõe as linhas com as colunas da matriz:
+
+Matriz Inversa: Uma Mariz K vezes a Matriz Inversa de K obtem-se uma Matriz Identidade.
+K * K-¹ = I
+
+K=
+[[2 1]
+ [4 3]]
+
+K-¹=
+[[a b]
+ [c d]]
+
+I=
+[[1 0]
+ [0 1]]
+
+2*a + c = 1
+2*b + d = 0
+4*a + 3*c = 0
+4*b + 3*4 = 1
+
+a=1,5
+b=-0,5
+c=-2
+d=1
+
+K-¹=
+[[1,5 -0,5]
+ [ -2    1]]
