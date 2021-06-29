@@ -50,3 +50,7 @@ Matriz C:
 Subtração me matrizes: Subtrai-se os elementos de cada matriz, seguindo a mesma lógica da soma.
 Também só é possível subtrair matrizes com o mesmo formato.
 Subtração também pode ser entendida como a soma da matriz A com a Matris Oposta de B.
+
+Multiplicação de Matrizes: Para multiplicar uma matriz por um número K, deve-se multilicar cada elemento da matriz pelo número K.
+
+Igualdade de Matrizes: Para uma matriz A(aij) = B(bij) eu tenho uma igualdade de metriz somente de aij = bij. Ou seja, se cada elemento da matriz A for igual ao seu correspondente na matriz B
