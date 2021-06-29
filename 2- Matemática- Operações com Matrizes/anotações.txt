@@ -90,7 +90,7 @@ C=
 
 Matriz Transposta: Transpõe as linhas com as colunas da matriz:
 
-Matriz Inversa: Uma Mariz K vezes a Matriz Inversa de K obtem-se uma Matriz Identidade.
+Matriz Inversa: Uma Matriz K vezes a Matriz Inversa de K obtem-se uma Matriz Identidade.
 K * K-¹ = I
 
 K=
@@ -118,3 +118,10 @@ d=1
 K-¹=
 [[1,5 -0,5]
  [ -2    1]]
+
+Matriz Simétrica: Matriz Transposta de A é igual a Matriz A.
+
+Matriz Antissimetrica: A Matriz Transposta da Matriz Quadrada A é Igual a sua matriz Oposta.
+
+Matriz Inversível: Considerando a Matriz H.
+Se H * H-¹ = I e H-¹ * H = I, ela é inversível.
