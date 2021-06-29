@@ -22,3 +22,31 @@ Diagonal Principal: {aij|i=j} = {a11, a22, a33, aii}
 Diagonal Secundária; {aij|i+j=n+1} = {a1n, a2,n-2, a3,n-2, an1}
 Matriz Diagonal: Somente a diagonal principal tem valores, os demais valores são 0
 Matriz Identidade (ou unidade): Todos os valores da Diagonal Principal são iguais a 1, od demais são iguais a 0.
+Matris Oposta: A matriz oposta existe em relação a outra matriz X. A matriz oposta da matriz X é uma matriz que contém os mesmos valores, porém com o sinal trocado.
+
+Adição de Matrizes: Soma-se os elementos de cada matriz.
+Śomente matrizes de mesmo formato podem ser somadas.
+
+Matriz A:
+[[12  5 10  7 4]
+ [ 4  7  6  8 8]
+ [ 7 12 13 10 5]]
+
+Matriz B:
+[[12 14 15 16 12]
+ [ 7 14 17  8  7]
+ [ 4  5  8  6  6]]
+
+Matriz C = A + B:
+[[12+12 5+14 10+15  7+16 4+12]
+ [ 4+7  7+14  6+17  8+8   8+7]
+ [ 7+4  12+5 13+8  10+6   5+6]]
+
+Matriz C:
+[[24 19 25 23 16]
+ [11 21 23 16 15]
+ [11 17 21 16 11]]
+
+Subtração me matrizes: Subtrai-se os elementos de cada matriz, seguindo a mesma lógica da soma.
+Também só é possível subtrair matrizes com o mesmo formato.
+Subtração também pode ser entendida como a soma da matriz A com a Matris Oposta de B.
